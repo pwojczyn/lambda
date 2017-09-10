@@ -10,7 +10,7 @@ public class Main {
         double result = 0;
 
         for (int i : t) {
-            if (lambda.h(i)) {
+            if (lambda.f(i)) {
 
                 result += i;
             }
@@ -22,6 +22,7 @@ public class Main {
 
     public static void main(String[] args) {
         int t[] = {9, 0, -8, 2};
+        
         double sum = arrayFun(t, (x) -> x > 0);
 
         System.out.println((int)sum);
