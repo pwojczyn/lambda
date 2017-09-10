@@ -22,7 +22,7 @@ public class Main {
 
     public static void main(String[] args) {
         int t[] = {9, 0, -8, 2};
-        
+
         double sum = arrayFun(t, (x) -> x > 0);
 
         System.out.println((int)sum);

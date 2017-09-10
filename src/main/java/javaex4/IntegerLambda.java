@@ -1,5 +1,5 @@
 package javaex4;
 @FunctionalInterface
 public interface IntegerLambda {
-    Boolean h(Integer a);
+    boolean f(int x);
 }
